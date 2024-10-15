@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Celaida tejidos</title>
+
+        <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+	
+	<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Celaida</span>
+			<span class="site-desc">Calcular puntos y lana / Crear patrones / Pixela Imagen</span>
+		</a> <!-- / #logo-header -->
+
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav><!-- / nav -->
+
+	</header><!-- / #main-header -->
+
+	
+	<section id="main-content">
+	
+		<article>
+			<header>
+				<h1>Celaida tejidos</h1>
+			</header>
+			
+			<img src="Logo.jpg" alt="Gatito" />
+			
+			<div class="content">
+				<p>El comienzo...</p>
+
+				<p>&emsp;El nombre Celaida surje por el nombre de mis abuelas; mi abuela materna: Celsa y mi abuela paterna Aída. Ellas fueron las que me enseñaron a tejer cuando era niña. Mi abi Celsa me enseñó a tejer a dos agujas y mi abi Aída a crochet.</p>
+                
+                <p>&emsp;Desde ese entonces mi pasión por tejer con los años fué creciendo, y las ganas de aprender nuevas cosas siempre estuvo presente a lo largo de mi vida.</p>
+
+                <p>&emsp;Mientras terminaba mi carrera en la universidad y mis hijos eran pequeños, comencé a tejer a pedido y de ahí fué que nació la idea de crear una página en <a href="https://www.facebook.com/celaida.tejidos">Facebook</a> para mostrar lo que iba haciendo, con el eslogan: <i>El tejido que Tu Deseas..</i></p>
+            
+            </div>
+			
+		</article> <!-- /article -->
+	
+	</section> <!-- / #main-content -->
+
+	
+	
+	<footer id="main-footer">
+		<p>&copy; 2024 <a href="https://miriam16.github.io/CV/">Lic. Miriam Calo</a></p>
+	</footer> <!-- / #main-footer -->
+
+	
+</body>
+</html>
+<!--<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Celaida tejidos</title>
+    <link rel='stylesheet' href='principal.css' />
+   <script type='text/javascript' src='principal.js'></script>
+   </head>
+<body>
+	<br>
+    <div id="imagen">
+        <img src='Logo.jpg' alt='' id="foto"/>
+    </div>
+    <br>
+    <div id="contenido">
+		<iframe name='contenido'>
+		</iframe>
+	</div>
+</body>
+</html>-->

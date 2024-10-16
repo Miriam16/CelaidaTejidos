@@ -60,22 +60,3 @@
 	
 </body>
 </html>
-<!--<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Celaida tejidos</title>
-    <link rel='stylesheet' href='principal.css' />
-   <script type='text/javascript' src='principal.js'></script>
-   </head>
-<body>
-	<br>
-    <div id="imagen">
-        <img src='Logo.jpg' alt='' id="foto"/>
-    </div>
-    <br>
-    <div id="contenido">
-		<iframe name='contenido'>
-		</iframe>
-	</div>
-</body>
-</html>-->

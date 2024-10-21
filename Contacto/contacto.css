@@ -99,7 +99,7 @@ h1 {
     width: 600px;
     height: 200px;
 }
-button {
+#canalyoutube {
     margin-top: 10%;
     width: 200px;
     height: 30px;
@@ -107,6 +107,6 @@ button {
     border-radius:5px;
     margin-left: 1%;
   }
-  button:hover {
+  #canalyoutube:hover {
     background-color: aliceblue;
   }

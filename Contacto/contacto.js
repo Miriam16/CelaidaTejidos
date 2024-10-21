@@ -1,6 +1,7 @@
 function abriryoutube(){
-    window.parent.document.location.href = ''
+  alert('Hola');
 }
-window.onload = async function () {
-    document.getElementById('canalyoutube').addEventListener('click', abriryoutube)
+window.onload = function () {
+    //document.getElementById('canalyoutube').addEventListener('click', abriryoutube);
+    document.getElementById('canalyoutube').onclick = abriryoutube
 }

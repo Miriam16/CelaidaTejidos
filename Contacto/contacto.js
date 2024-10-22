@@ -1,13 +1,31 @@
-function enviar(){
+/*function enviar(){
   alert('grabar');
-}
+}*/
 function verificaryenviar(){
   var nom = document.getElementById('nom').value;
   var mail = document.getElementById('mail').value;
   var asunto = document.getElementById('asunto').value;
   var men = document.getElementById('men').value;
   if(nom!='' & asunto!='' & mail!='' & men!=''){
-    enviar();
+    //enviar();
+    let datos = new URLSearchParams({ 
+      'nbre': nom,
+      'email': mail,
+      'asun': asunto,
+      'mens': men
+    });
+    var cabecera = new Headers({
+      "content-type": "application/x-www-form-urlencoded",
+    });
+    var url = '/CelaidaTejidos/Contacto/enviarmail.php'
+    var parametros = { method: "POST", body: datos, header: cabecera };
+    fetch(url, parametros)
+      .then(function (response) {
+        return response.json();
+      })
+      /*.then(function (res) {
+        console.log(res)
+      })*/
   }
   else{
     alert('Por favor completar los Datos solicitados');
